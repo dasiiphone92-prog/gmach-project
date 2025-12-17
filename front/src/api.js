@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://gmach-project1.onrender.com",
 });
 
 // מוסיף אוטומטית את הטוקן לכל בקשה
